@@ -365,7 +365,7 @@ footer {
 }
 
 
-    
+/*     
     @media (min-width:20px)and(max-width:300px)
     {
         section{
@@ -674,7 +674,7 @@ footer {
             display: flex;
             justify-content: center;
             align-items: center;
-            /* background-color:lavender; */
+             background-color:lavender;
             margin: 20px 10px;
             border-radius: 50%;
             background: linear-gradient(cyan,black);
@@ -729,4 +729,4 @@ footer {
                 text-align: center;
                 display: block;
             }
-    }
+    }  */
