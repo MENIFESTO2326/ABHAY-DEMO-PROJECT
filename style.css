@@ -364,10 +364,7 @@ footer {
     background-image: linear-gradient(-75deg, rgb(180, 180, 33),rgb(129, 112, 112),rgb(235, 230, 230));
 }
 
-    /* #start{
-        text-align: center;
-        display: none;
-    } */
+
     
     @media (min-width:20px)and(max-width:300px)
     {
