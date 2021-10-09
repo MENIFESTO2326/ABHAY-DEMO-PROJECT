@@ -353,7 +353,7 @@ footer {
     text-align: center;
     font-size: 30px;
     font-family: calibri;
-    background-image: linear-gradient(15deg,rgb(250, 71, 48),rgb(15, 14, 14));
+    background-image: linear-gradient(95deg,rgb(206, 121, 41),rgb(218, 151, 8),rgb(105, 97, 97),rgba(56, 53, 53, 0));
     color: black;
     padding-top: 5vh;
     padding-left: 25%;
@@ -363,370 +363,42 @@ footer {
 #btn{
     background-image: linear-gradient(-75deg, rgb(180, 180, 33),rgb(129, 112, 112),rgb(235, 230, 230));
 }
-
-#start{
-    text-align: center;
-    display: block;
+@media (min-width:200px)and(max-width:550px)
+{
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    ul{
+        list-style: none;
+    }
+    section{
+        width: 100%;
+        height: 95vh;
+        background-image: linear-gradient(45deg,rgb(206, 121, 41),rgb(218, 151, 8),rgb(105, 97, 97),rgba(56, 53, 53, 0));
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        display: block;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+        background-color: silver;
+        box-shadow: 2px 2px 12px black;
+        padding: 0px 1px;
+    }
+    nav ul{
+        display: flex;
+    }
+    nav ul li a{
+        margin: 30px;
+        font-family: Algerian;
+        color: white;
+        font-size: 18px;
 }
-    
-    @media (max-width:550px)
-    {
-        section{
-            width: 100%;
-            height: 45vh;
-            background-image: linear-gradient(45deg,rgb(206, 121, 41),rgb(218, 151, 8),rgb(105, 97, 97),rgba(56, 53, 53, 0));
-            background-size: cover;
-            background-repeat: no-repeat;
-            position: relative;
-            display: block;
-        }
-        nav{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 30px;
-            background-color: silver;
-            box-shadow: 1px 1px 10px black;
-            padding: 0px 2px;
-        }
-        nav ul{
-            display: flex;
-        }
-        nav ul li a{
-            margin: 15px;
-            font-family: Algerian;
-            color: white;
-            font-size: 12px;
-        }
-        .active{
-            color: turquoise;
-            font-weight: bold;
-        }
-        .profile{
-            height: 300px;
-            position: absolute;
-            bottom: 20px;
-            left: 45%;
-            transform: translate(-45%);
-        }
-        .text-container p:nth-child(1){
-        font-family: cursive;
-        font-weight: bold;
-        letter-spacing: 1px;
-        color: rgb(42, 35, 143);
-        font-size: 12px;
-        }
-        .text-container p:nth-child(2){
-            font-family: cursive;
-            font-weight: bold;
-            letter-spacing: 1px;
-            color: rgb(203, 203, 206);
-            font-size: 30px;
-            }
-            .text-container p:nth-child(3){
-                font-family: myriad pro regular;
-                color: rgb(19, 14, 14);
-                font-size: 15px;
-                line-height: 20px;
-                }    
-        .text-container p{
-            margin: 35px opx 20px;
-            line-height: 0px;
-        }        
-        .text-container button{
-            width: 90px;
-            height: 32px;
-            border-radius: 10px;
-            font-family: calibri;
-            font-weight: bold;
-            font-size: 10px;
-            outline: none;
-            margin: 0px 10px;
-        }
-        .text-container{
-            position: absolute;
-            left: 13%;
-            top: 42%;
-            transform: translate(-13%,-42%);
-          
-        }
-        .hire-btn{
-            border: 4px solid black;
-            color: white;
-            background-color:greenyellow;
-            
-        }
-        .down-cv{
-        
-            background-color: turquoise;
-            color:white;
-            border:4px solid black;
-            
-        }
-        button:active{
-        transform: scale(1.1);
-        }
-        
-        
-        .about-container{
-            width: 80%;
-            height: 330px;
-            background: yellowgreen;
-            border-radius: 20px;
-            box-shadow: 2px 6px 12px black;
-            display: flex;
-            margin: -7% auto 20px auto;
-            position:relative;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-        .about-container img{
-            height: 150px;
-        }
-        .about-text{
-            width:250px
-        }
-        .about-text p:nth-child(1){
-            color: rgb(87, 82, 82);
-            font-family: myriad pro;
-            font-weight: bold;
-            font-size: 18px;
-            line-height: 0px;    
-        }
-        .about-text p:nth-child(2){
-            color:rgb(87, 85, 85);
-            font-family: myriad pro;
-            font-weight: bold;
-            font-size: 18px;
-            line-height: 0px;    
-        }
-        .about-text p:nth-child(3),.about-text p:nth-child(4){
-            color:rgb(87, 85, 85);
-            font-family: cursive;
-            font-size: 13px;
-        }
-        .about-text button{
-            width: 60px;
-            height: 40px;
-            color:white;
-            outline: none;
-            border: none;
-            font-family: calibri;
-            background-color: rgba(19, 17, 17, 0.767);
-        }
-        .services{
-            height: 300px;
-            background-color:whitesmoke;
-            padding: 2% 10% 0px 10%;
-        
-        }
-        .services-text
-        {
-            font-size: 40px;
-            text-decoration-style: bold;
-            border-bottom: 5px solid black;
-            
-        }
-        .services-text p:nth-child(1){
-            font-family: calibri;
-            font-weight: bold;
-            color: black;
-            font-size: 45px;
-            line-height: 0px;
-        }
-        .services-text p:nth-child(2){
-            font-family: calibri;
-            font-weight: bold;
-            color:gray;
-            font-size: 13px;
-            line-height: 5px;
-        }
-        .services-text p:nth-child(3){
-            font-family: calibri;
-            color: rgb(56, 53, 53);
-            font-size: 25px;
-        }
-        .services-text{
-            width: 300px;
-            margin: 50px 0px;
-        }
-        
-        .box-container{
-            display: flex;
-            justify-content: space-between; 
-        }
-        .box-1,.box-2,.box-3{
-            width: 300px;
-            height: 200px;
-            background-repeat: no-repeat;
-            background-size: cover;
-            box-shadow: 2px 2px 18px black;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            flex-direction: column;
-            margin: 0px 4px;
-        }
-        .box-1{
-            background-image: linear-gradient(rgb(137, 23, 172),rgb(70, 68, 64),rgb(156, 17, 98));
-        }
-        .box-2{
-            background-image: linear-gradient(rgb(137, 23, 172),rgb(70, 68, 64),rgb(156, 17, 98));
-        }
-        .box-3{
-            background-image: linear-gradient(rgb(137, 23, 172),rgb(70, 68, 64),rgb(156, 17, 98));
-        }
-        .box-1 span,
-        .box-2 span,
-        .box-3 span{
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background-color:blanchedalmond;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Calibri;
-            font-weight: bold;
-        }
-        .box-1 p:nth-child(2),
-        .box-2 p:nth-child(2),
-        .box-3 p:nth-child(2){
-            color: blanchedalmond;
-            font-family: calibri;
-            font-size: 20px;
-            line-height: 0px;
-        }
-        .box-1 p:nth-child(3),
-        .box-2 p:nth-child(3),
-        .box-3 p:nth-child(3){
-            font-family: calibri;
-            color: gray;
-            text-align: center;
-            width: 200px;
-            margin: 0px 0px 20px 0px;
-        }
-        .box-1 button,
-        .box-2 button,
-        .box-3 button{
-            width: 100px;
-            height: 30px;
-            background-color: rgb(115, 175, 202);
-            border: none;
-            outline: none;
-            border-radius: 10px;
-        }
-        .contact-me{
-            width: 100%;
-            height: 20vh;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-image: linear-gradient(75deg, rgb(180, 180, 33),rgb(129, 112, 112),rgb(41, 38, 38));
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin: 0px 0px 20px 0px ;
-        
-        }
-        .contact-me p{
-            color:whitesmoke;
-            font-size: 30px;
-            font-family: calibri;
-            font-weight: bold;
-            border-bottom: 2px solid white;
-        
-        }
-        .contact-me button{
-            width: 200px; 
-            height: 30px;
-            background-color: whitesmoke;
-            border: none;
-            outline: none;
-            font-size: 10px;
-            font-weight: bold;
-        
-        }
-        footer p{
-            font-family: calibri;
-        
-        }
-        footer p:nth-child(1){
-            font-size: 20px;
-            font-weight: bold;
-            color: grey;
-            line-height: 8px;
-        }
-        footer p:nth-child(2){
-            font-size: 14px;
-            color: grey;
-            width: 600px;
-            text-align: center;
-        }
-        footer {
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-        }
-        .social-icons a{
-            width: 40px;
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-             background-color:lavender;
-            margin: 20px 10px;
-            border-radius: 50%;
-            background: linear-gradient(cyan,black);
-            font-size: 50px;
-            padding: 10px;
-        }
-        .social-icons{
-            display: flex;
-        }
-        .social-icons i,  .social i{
-            color:black;
-        }
-        .social-icons a:hover{
-            background-color: rgb(107, 149, 168);
-            box-shadow: 2px 2px 12px rgb(43, 37, 37);
-            transition: all ease 0.5;
-        }
-        .social-icons a:hoveri,
-        .social a:hover i{
-            color:white;
-            transition: all ease 0.5;
-        }
-        .cont{
-            margin-top: 10%;
-            margin-left: 25%;
-            margin-right: 25%;
-            margin-bottom: 10%;
-            font-family: calibri;
-            font-size: 20px;
-            background-image:linear-gradient(rgb(51, 51, 138),rgb(236, 87, 0),rgb(240, 240, 131));
-            color: black;
-        }
-        #foot{
-            background-image: linear-gradient(90deg,rgb(238, 113, 113),rgb(240, 240, 116),rgb(138, 245, 138),rgb(138, 138, 226));
-        }
-        #CREATED{
-            text-align: center;
-            font-size: 20px;
-            font-family: calibri;
-            background-image: linear-gradient(15deg,rgb(250, 71, 48),rgb(15, 14, 14));
-            color: black;
-            padding-top: 3vh;
-            padding-left: 20%;
-            padding-right: 20%;
-            padding-bottom: 3vh;
-        }
-        #btn{
-            background-image: linear-gradient(-75deg, rgb(180, 180, 33),rgb(129, 112, 112),rgb(235, 230, 230));
-        }
-        
-      
-    } 
+
+
+ 
