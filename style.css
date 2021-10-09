@@ -364,7 +364,7 @@ footer {
     background-image: linear-gradient(-75deg, rgb(180, 180, 33),rgb(129, 112, 112),rgb(235, 230, 230));
 }
 
-/* #start{
+#start{
     text-align: center;
     display: block;
 }
@@ -729,4 +729,4 @@ footer {
         }
         
       
-    }  */
+    } 
