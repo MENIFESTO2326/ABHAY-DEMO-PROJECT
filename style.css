@@ -366,7 +366,7 @@ footer {
 
     #start{
         text-align: center;
-        display: block;
+        display: none;
     }
     
     @media (min-width:20px)and(max-width:300px)
